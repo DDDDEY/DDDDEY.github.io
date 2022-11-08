@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="">
+<meta charset="UTF-8">
+<head>
+
+  <title>作业7</title></head>
+<style>
+  .one{
+    width:50px;
+    height:50px;
+    background: rgb(179, 208, 222);
+    transition:width 1s;
+  }
+  .two{
+    width:500px;
+    height:500px;
+    background: rgb(60, 231, 185);
+    transition:width 1s;
+  }
+  div:hover {
+    width:1500px;
+    height: 550px;
+  }
+  div:hover span{
+    width:150px;
+    height: 50px;
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 10px;
+  }
+  div:hover i{
+    position: relative;
+    left: 110px;
+    top: -48px;
+  }
+  span{
+    color: white;
+  }
+  .word{
+    display: none;
+  }
+  i{
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+</style>
+<body>
+<div class="one">
+  <span class="word">访客 Visitor</span>
+  <i class="glyphicon glyphicon-globe" aria-hidden="true" ></i>
+</div>
+<div class="two">
+  <span class="word">学生 Student</span>
+  <i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+</div>
+</body>
+</html>
